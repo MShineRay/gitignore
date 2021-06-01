@@ -1,5 +1,26 @@
-#IntelliJ IDEA
+.DS_Store
+node_modules
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
 .idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # VS Code
 .vscode/
@@ -10,11 +31,6 @@ node_modules/
 dist/
 wwwroot/
 build/
-
-# idea中的配置
-.svn/
-.idea/
-.DS_Store
 
 # 排除所有.开头的隐藏文件
 .*
